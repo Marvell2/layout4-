@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid grey;
+    
+}
+.box{
+    border: 2px solid grey;
+    margin: 24px 24px 0 24px;
+}
+.boxwrap{
+    display:flex;
+    flex-direction:column;
+    width: 45%;
+
+}
+.box-small{
+    height:30px;
+    margin-bottom: 24px;
+}
+.box-large{
+    width: 45%;
+    margin-bottom: 24px;
+}
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-around;
+}
+.boxtiny{
+    display:flex;
+}
+.box-tiny{
+    height: 50px;
+    width:30%;
+    margin-bottom: 24px;
+}
